@@ -22,9 +22,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 let counter = 0;
 
 setInterval(() => {
-    root.render(
-        <React.StrictMode>
-            <Home counter={counter++} />
-        </React.StrictMode>
-    );
+  root.render(
+    <React.StrictMode>
+      <Home counter={counter++} />
+    </React.StrictMode>
+  );
 }, 1000);

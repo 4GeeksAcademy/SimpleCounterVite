@@ -1,0 +1,37 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+}
+  
+
+.counter-display {
+    background: linear-gradient(120deg, #f802d7, #007e00); 
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    padding: 20px 40px; 
+    color: #fff;
+    animation: fadeIn 1s ease-in-out;
+  }
+  .clock-img svg {
+    fill: #fff; 
+  }
+  .seconds {
+    font-size: 2rem; 
+    font-weight: bold; 
+
+  }
+  .clock-img svg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+body {
+    background-color: black;
+}
+
