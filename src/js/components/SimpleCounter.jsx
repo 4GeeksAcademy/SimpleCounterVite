@@ -18,7 +18,6 @@ const SimpleCounter = (props) => {
                 <div className="col seconds mx-1">{props.onesDigit}</div>
             </div>
         </div>
-
     )
 }
 
